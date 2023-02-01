@@ -2,7 +2,7 @@
 
 namespace PokemonReview.Models
 {
-    public class Country
+    public class Country : AppModel
     {
         public int Id { get; set; }
         public string   Name   { get; set; }

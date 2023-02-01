@@ -1,6 +1,6 @@
 ﻿namespace PokemonReview.Models
 {
-    public class Category
+    public class Category : AppModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
